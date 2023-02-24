@@ -1,0 +1,16 @@
+https://us.atlas.microsoft.com/mapData/operations/060579a8-710b-40d5-be76-74e91fd87c2c?api-version=2.0
+//storage accountame 
+contosorentalstorage
+//key
+ZcUQEeHmexW1Zo50HGS0NLyiV3d2ErAu+zyO1y6yKNhO2uOeCK6T++yoxZfHPSYWc5uobEM5kszF+AStuRccsA==
+
+//operation location key
+https://us.atlas.microsoft.com/mapData/operations/259ec4a0-8dcf-410d-b554-2ce4199fd1e3?api-version=2.0
+
+//Resouece-Location contains resoruce location URL (uuid)
+https://us.atlas.microsoft.com/mapData/metadata/a7fbcf99-567f-2028-e91d-1f19ba2e0a42?api-version=2.0
+
+az iot hub create --resource-group MyResourceGroup(gps-sensor) --name {YourIoTHubName} (mutss) //iot hub name
+
+//primary connection string, used to comm w IoT hub
+HostName=mutss.azure-devices.net;DeviceId=InVehicleDevice;SharedAccessKey=2NCjewTWN5CxnOr7PNfpuR8kObi1qvOJeLkt9OaOG9k=
